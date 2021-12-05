@@ -1,0 +1,55 @@
+.btnBlue {
+    @include borderR(100px);
+    @include btn();
+    background-color: $mainBlue;
+    color: $white;
+    letter-spacing: 3px;
+
+    &:hover {
+        background-color: lighten($mainBlue, $lighten);
+        color: $white;
+    }
+}
+
+.btnBoredBlue {
+    @include borderR(100px);
+    @include btn();
+    @include btnBorder();
+
+    background-color: $white;
+    color: $mainBlue;
+
+    &:hover {
+        color: lighten($mainBlue, 10%);
+        border: 1px solid lighten($mainBlue, 10%);
+    }
+}
+
+.btnYellow {
+    @include borderR(100px);
+    @include btn();
+    background-color: $subYellow;
+    color: $textBlack;
+
+    &:hover {
+        background-color: lighten($subYellow, $lighten);
+        color: lighten($textBlack, 30%);
+    }
+}
+
+.btnWhite {
+    @include borderR(100px);
+    @include btn();
+    background-color: $white;
+    color: $textBlack;
+
+    &:hover {
+        // background-color: darken($white, $darken);
+        color: lighten($textBlack, 30%);
+    }
+}
+
+//自訂按鈕，已寫好padding跟圓角
+.btn {
+    @include btn();
+}

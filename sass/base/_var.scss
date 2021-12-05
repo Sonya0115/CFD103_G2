@@ -1,16 +1,28 @@
+// 版型
+$layoutwidth:960px;
+
+// 斷點
+
 // 顏色
 $mainBlue:#025A78;
 $mainYellow:#F1EBC6;
-
+$subYellow:#FFF3A9;
 $bgYellow:#FFF9D6;
 $bgGray:#F3F3F3;
 $tagGray:#676767;
 $textBlack:#2e2e2e;
 $linkBlue:#5F8B94;
 $pageBlue:#6B879D;
+$shawdowGray:#8989895e;
+$white:#ffffff;
+$darkYellow:#D2B81C;
+
+
+//顏色明暗
+$darken:10%;
+$lighten:10%;
 
 // 字體
-
 
 // 字級
 $h1:36px;
@@ -21,16 +33,21 @@ $p:20px;
 $hashtag:18px;
 $nav:26px;
 
+$font-1:20px;
+$font-2:24px;
+$font-3:28px;
+$font-4:32px;
+$font-5:36px;
 
+//字元間距
+$letterSpacing:2px;
 
 // 間距
-$padding:10px;
-$padding-5:5px;
 $margin:10px;
+$padding:10px;
 
 
-//圖檔路徑
-$file:'image';
-
-//原角
+// 圓角
 $circle:50%;
+
+//框線

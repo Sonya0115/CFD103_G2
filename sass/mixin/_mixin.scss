@@ -1,0 +1,41 @@
+// 水平置中
+@mixin center($val:0) {
+    margin: $val auto;
+}
+
+// 圓型
+@mixin circle() {
+    border-radius: 50%;
+}
+
+// 圓角設定
+@mixin borderR($val:10px) {
+    border-radius: $val;
+}
+
+@mixin picBorderR($val:10px) {
+    border-radius: $val $val 0 0;
+}
+
+// 陰影
+@mixin shadow($val:5px) {
+    box-shadow: 0 0 $val $shawdowGray;
+}
+
+// 卡片
+@mixin card() {
+    @include shadow();
+    @include borderR();
+    color: $textBlack;
+}
+
+@mixin btn() {
+    padding: 10px 20px;
+    font-size: $font-1;
+    margin: $margin;
+    display: inline-block;
+}
+
+@mixin btnBorder($val:$mainBlue) {
+    border: 1px solid $val;
+}

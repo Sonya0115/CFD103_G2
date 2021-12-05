@@ -1,46 +1,72 @@
 @import 'base/var';
 @import 'base/reset';
-@import 'module/card';
+@import 'mixin/mixin';
+@import 'module/btn';
+
+* {
+    letter-spacing: $letterSpacing;
+}
 
 .container {
-    width: 1024px;
-    margin: 0 auto;
-    background-color: antiquewhite;
+    width: $layoutwidth;
+    @include center();
 }
 
 h1 {
     font-size: $h1;
+    padding: 20px;
 }
 
-$h1:36px;
-
 h2 {
-    font-size: 28px;
+    font-size: $h2;
+    padding: 15px;
 }
 
 h3 {
-    font-size: 26px;
+    font-size: $h3;
+    padding: 10px;
 }
 
 h4 {
-    font-size: 24px;
+    font-size: $h4;
+    padding: 10px;
 }
 
 p {
-    font-size: 20px;
+    font-size: $p;
     color: $textBlack;
+    line-height: $p * 1.5;
+    text-align: justify;
+    padding: 10px;
 }
 
-nav {
-    font-size: 26px;
-}
 
 .hashtag {
-    font-size: 18px;
+    font-size: $hashtag;
+    padding: 10px;
 }
-
 
 img {
     width: 100%;
     vertical-align: top;
+
+}
+
+a {
+    text-decoration: none;
+    color: $mainBlue;
+    font-size: 1;
+
+    &:hover {
+        color: $linkBlue;
+        cursor: pointer;
+    }
+}
+
+.testCard {
+    width: 150px;
+    height: 100px;
+    @include card();
+    margin: $margin;
+    padding: $padding;
 }

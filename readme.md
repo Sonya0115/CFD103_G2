@@ -1,12 +1,12 @@
 ## 字級
 
-- <h1> 28 px
+- <h1> 36 px
 - <h2> 26 px
 - <h3> 24 px
 - <h4> 22 px
 - <p> 20 px
 - <nav> 26 px
-- hashtag 18 px
+- .hashtag 18 px
 
 ## 顏色
 

@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.btnBlue {
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #025A78;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+.btnBlue:hover {
+  background-color: #0380aa;
+  color: #ffffff;
+}
+
+.btnBoredBlue {
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #025A78;
+  background-color: #ffffff;
+  color: #025A78;
+}
+.btnBoredBlue:hover {
+  color: #0380aa;
+  border: 1px solid #0380aa;
+}
+
+.btnYellow {
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #FFF3A9;
+  color: #2e2e2e;
+}
+.btnYellow:hover {
+  background-color: #fffadc;
+  color: #7b7b7b;
+}
+
+.btnWhite {
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #ffffff;
+  color: #2e2e2e;
+}
+.btnWhite:hover {
+  color: #7b7b7b;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 10px;
+  display: inline-block;
+}
+
+* {
+  letter-spacing: 2px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 24px;
+  padding: 10px;
+}
+
+h4 {
+  font-size: 22px;
+  padding: 10px;
+}
+
+p {
+  font-size: 20px;
+  color: #2e2e2e;
+  line-height: 30px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.hashtag {
+  font-size: 18px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color: #025A78;
+  font-size: 1;
+}
+a:hover {
+  color: #5F8B94;
+  cursor: pointer;
+}
+
+.testCard {
+  width: 150px;
+  height: 100px;
+  box-shadow: 0 0 5px #8989895e;
+  border-radius: 10px;
+  color: #2e2e2e;
+  margin: 10px;
+  padding: 10px;
+}
