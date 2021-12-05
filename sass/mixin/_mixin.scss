@@ -3,11 +3,6 @@
     margin: $val auto;
 }
 
-// 圓型
-@mixin circle() {
-    border-radius: 50%;
-}
-
 // 圓角設定
 @mixin borderR($val:10px) {
     border-radius: $val;

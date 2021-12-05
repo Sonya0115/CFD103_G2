@@ -1,0 +1,10 @@
+@import './style.scss';
+
+
+.testCard {
+    width: 150px;
+    height: 100px;
+    @include card();
+    margin: $margin;
+    padding: $padding;
+}

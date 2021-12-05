@@ -124,7 +124,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -143,6 +143,7 @@ table {
   color: #ffffff;
   letter-spacing: 3px;
 }
+
 .btnBlue:hover {
   background-color: #0380aa;
   color: #ffffff;
@@ -158,6 +159,7 @@ table {
   background-color: #ffffff;
   color: #025A78;
 }
+
 .btnBoredBlue:hover {
   color: #0380aa;
   border: 1px solid #0380aa;
@@ -172,6 +174,7 @@ table {
   background-color: #FFF3A9;
   color: #2e2e2e;
 }
+
 .btnYellow:hover {
   background-color: #fffadc;
   color: #7b7b7b;
@@ -186,6 +189,7 @@ table {
   background-color: #ffffff;
   color: #2e2e2e;
 }
+
 .btnWhite:hover {
   color: #7b7b7b;
 }
@@ -200,6 +204,7 @@ table {
 .smCircle {
   width: 50px;
 }
+
 .smCircle .circle {
   border-radius: 50%;
 }
@@ -207,6 +212,7 @@ table {
 .mdCircle {
   width: 100px;
 }
+
 .mdCircle .circle {
   border-radius: 50%;
 }
@@ -214,6 +220,7 @@ table {
 .lgCircle {
   width: 150px;
 }
+
 .lgCircle .circle {
   border-radius: 50%;
 }
@@ -269,6 +276,7 @@ a {
   text-decoration: none;
   color: #025A78;
 }
+
 a:hover {
   color: #5F8B94;
   cursor: pointer;
@@ -277,3 +285,15 @@ a:hover {
 .circle {
   border-radius: 50%;
 }
+
+.testCard {
+  width: 150px;
+  height: 100px;
+  -webkit-box-shadow: 0 0 5px #8989895e;
+          box-shadow: 0 0 5px #8989895e;
+  border-radius: 10px;
+  color: #2e2e2e;
+  margin: 10px;
+  padding: 10px;
+}
+/*# sourceMappingURL=reference.css.map */

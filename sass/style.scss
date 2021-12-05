@@ -2,6 +2,10 @@
 @import 'base/reset';
 @import 'mixin/mixin';
 @import 'module/btn';
+@import 'module/circle';
+
+
+
 
 * {
     letter-spacing: $letterSpacing;
@@ -55,7 +59,7 @@ img {
 a {
     text-decoration: none;
     color: $mainBlue;
-    font-size: 1;
+
 
     &:hover {
         color: $linkBlue;
@@ -63,10 +67,6 @@ a {
     }
 }
 
-.testCard {
-    width: 150px;
-    height: 100px;
-    @include card();
-    margin: $margin;
-    padding: $padding;
+.circle {
+    border-radius: 50%;
 }
