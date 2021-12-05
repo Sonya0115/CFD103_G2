@@ -133,41 +133,6 @@ table {
   border-spacing: 0;
 }
 
-<<<<<<< HEAD
-.card {
-  box-sizing: border-box;
-  width: 256px;
-  margin: 10px;
-  background-color: aqua;
-}
-.card .pic {
-  width: 100%;
-}
-.card .content {
-  padding: 10px;
-}
-.card .content h2 {
-  padding: 10px;
-}
-.card .content p {
-  padding: 10px;
-}
-.card .content .author {
-  display: flex;
-  align-items: center;
-}
-.card .content .author .pic {
-  width: 50px;
-}
-.card .content .author .pic img {
-  border-radius: 50%;
-}
-
-.container {
-  width: 1024px;
-  margin: 0 auto;
-  background-color: antiquewhite;
-=======
 .btnBlue {
   border-radius: 100px;
   padding: 10px 20px;
@@ -239,25 +204,10 @@ table {
 .container {
   width: 960px;
   margin: 0 auto;
->>>>>>> Elaine
 }
 
 h1 {
   font-size: 36px;
-<<<<<<< HEAD
-}
-
-h2 {
-  font-size: 28px;
-}
-
-h3 {
-  font-size: 26px;
-}
-
-h4 {
-  font-size: 24px;
-=======
   padding: 20px;
 }
 
@@ -274,37 +224,24 @@ h3 {
 h4 {
   font-size: 22px;
   padding: 10px;
->>>>>>> Elaine
 }
 
 p {
   font-size: 20px;
   color: #2e2e2e;
-<<<<<<< HEAD
-}
-
-nav {
-  font-size: 26px;
-=======
   line-height: 30px;
   text-align: justify;
   padding: 10px;
->>>>>>> Elaine
 }
 
 .hashtag {
   font-size: 18px;
-<<<<<<< HEAD
-=======
   padding: 10px;
->>>>>>> Elaine
 }
 
 img {
   width: 100%;
   vertical-align: top;
-<<<<<<< HEAD
-=======
 }
 
 a {
@@ -325,5 +262,4 @@ a:hover {
   color: #2e2e2e;
   margin: 10px;
   padding: 10px;
->>>>>>> Elaine
 }
