@@ -1,0 +1,67 @@
+//input form
+.login-wrapper {
+  width: $formwidth;
+  background-color: $mainBlue;
+  padding: 50px 10px 50px;
+  margin: 50px auto;
+  @include borderR;
+}
+
+//表單input欄位置中用
+.login-form {
+  width: $forminputwidth;
+  margin: auto;
+}
+
+form h1 {
+  font-size: $h1;
+  text-align: center;
+  color: $subYellow;
+}
+
+//各項input請用div.group包起來
+.group {
+  position: relative;
+  margin: 45px 0;
+
+}
+
+.input {
+  color: $pageBlue;
+  font-size: $font-1;
+  padding: 25px 10px 10px;
+  display: block;
+  width: $forminputwidth;
+  border: none;
+  @include borderR;
+}
+
+.input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.input:focus~label,
+.input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+  top: 5px;
+  font-size: $font-1;
+  color: $pageBlue;
+}
+
+.input:focus~.bar:before,
+textarea:focus~.bar:before {
+  width: $forminputwidth;
+}
+
+label {
+  color: $pageBlue;
+  font-size: $font-2;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 20px;
+  transition: 300ms ease all;
+}
