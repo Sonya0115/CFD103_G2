@@ -136,7 +136,7 @@ table {
 .btnBlue {
   border-radius: 100px;
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 14px;
   margin: 10px;
   display: inline-block;
   background-color: #025A78;
@@ -152,7 +152,7 @@ table {
 .btnBoredBlue {
   border-radius: 100px;
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 14px;
   margin: 10px;
   display: inline-block;
   border: 1px solid #025A78;
@@ -168,41 +168,41 @@ table {
 .btnYellow {
   border-radius: 100px;
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 14px;
   margin: 10px;
   display: inline-block;
   background-color: #FFF3A9;
-  color: #2e2e2e;
+  color: #777777;
 }
 
 .btnYellow:hover {
   background-color: #fffadc;
-  color: #7b7b7b;
+  color: #c4c4c4;
 }
 
 .btnWhite {
   border-radius: 100px;
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 14px;
   margin: 10px;
   display: inline-block;
   background-color: #ffffff;
-  color: #2e2e2e;
+  color: #777777;
 }
 
 .btnWhite:hover {
-  color: #7b7b7b;
+  color: #c4c4c4;
 }
 
 .btn {
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 14px;
   margin: 10px;
   display: inline-block;
 }
 
 .smCircle {
-  width: 50px;
+  width: 30px;
 }
 
 .smCircle .circle {
@@ -210,7 +210,7 @@ table {
 }
 
 .mdCircle {
-  width: 100px;
+  width: 80px;
 }
 
 .mdCircle .circle {
@@ -218,11 +218,76 @@ table {
 }
 
 .lgCircle {
-  width: 150px;
+  width: 130px;
 }
 
 .lgCircle .circle {
   border-radius: 50%;
+}
+
+.login-wrapper {
+  width: 550px;
+  background-color: #025A78;
+  padding: 50px 10px 50px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.login-form {
+  width: 350px;
+  margin: auto;
+}
+
+form h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #FFF3A9;
+}
+
+.group {
+  position: relative;
+  margin: 45px 0;
+}
+
+.input {
+  color: #6B879D;
+  font-size: 14px;
+  padding: 25px 10px 10px;
+  display: block;
+  width: 350px;
+  border: none;
+  border-radius: 10px;
+}
+
+.input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.input:focus ~ label,
+.input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: 5px;
+  font-size: 14px;
+  color: #6B879D;
+}
+
+.input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 350px;
+}
+
+label {
+  color: #6B879D;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 20px;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
 }
 
 * {
@@ -230,33 +295,37 @@ table {
 }
 
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
 h1 {
   font-size: 36px;
   padding: 20px;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 28px;
   padding: 15px;
+  font-weight: bold;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 18px;
   padding: 10px;
+  font-weight: bold;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 16px;
   padding: 10px;
+  font-weight: bold;
 }
 
 p {
   font-size: 16px;
-  color: #2e2e2e;
+  color: #777777;
   line-height: 24px;
   text-align: justify;
   padding: 10px;
@@ -292,7 +361,7 @@ a:hover {
   -webkit-box-shadow: 0 0 5px #8989895e;
           box-shadow: 0 0 5px #8989895e;
   border-radius: 10px;
-  color: #2e2e2e;
+  color: #777777;
   margin: 10px;
   padding: 10px;
 }
