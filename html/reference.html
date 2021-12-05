@@ -1,47 +1,72 @@
-< !DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="./css/reference.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reference.css">
+</head>
 
-    <body>
-        <h2 style="color:rgb(202, 55, 87)">常用顏色變數名稱</h2>
-        <p>主要藍色 $mainBlue</p>
-        <p>主要黃色 $mainYellow</p>
-        <p>區塊背景灰色 $bgGray</p>
-        <p>區塊背景黃色 $bgYellow</p>
-        <p>篩選區塊背景黃色 $subYellow</p>
-        <p>內文黑 $textBlack</p>
-        <p>hashtag灰 $tagGray</p>
-        <h2 style="color:rgb(202, 55, 87)">文字</h2>
-        <h1>h1 font size</h1>
-        <h2>h2 font size</h2>
-        <h3>h3 font size</h3>
-        <h4>h4 font size</h4>
-        <p>p font size</p>
-        <div class="hashtag">#tagName </div><a href="#">這裡是超連結</a><br>
-        <h2 style="color:rgb(202, 55, 87)">卡片</h2>
-        <div class="testCard">卡片有圓角+陰影 @include card() </div><br>
-        <h2 style="color:rgb(202, 55, 87)">按鈕</h2><a class="btnBlue">立即開團</a><a class="btnBoredBlue">登入</a><a
-            class="btnYellow">加入景點</a><span style="display: inline-block;;background-color: rgb(240, 240, 240);"><a
-                class="btnWhite">活動頁面</a></span>
-        <h2 style="color:rgb(202, 55, 87)">其他</h2>
-        <h3>設圓角用 @include borderR()，所有區塊都要設圓角</h3>
-        <h3>設圓形用 @include circle() </h3>
-        <h3>自訂按鈕</h3>
-        <p>設class名稱為btn(已寫好圓角跟padding)，再自己設按鈕背景色跟文字的顏色等等... </p>
-        <h3>水平置中使用@include center()</h3>
-        <p>補充: <br>設定 上下margin 方式 → @include center(10px) <br>不填值 上下margin 預設為0 <br></p>
-        <h2 style="color:rgb(202, 55, 87)">圓形頭像</h2>
-        <p>外層div class名稱為smCirle/mdCircle/lgCircle，img標籤的class命名為circle</p>
-        <div class="smCircle"><img class="circle" src="https://picsum.photos/70/70/?random=1"></div>
-        <div class="mdCircle"><img class="circle" src="https://picsum.photos/70/70/?random=1"></div>
-        <div class="lgCircle"><img class="circle" src="https://picsum.photos/70/70/?random=1"></div>
-    </body>
 
-    </html>
+<body>
+
+    <h2 style="color:rgb(202, 55, 87)">分頁的scss檔，要「@import './style.scss';」，才能使用變數</h2>
+    <p>參考:reference.scss</p>
+    <h2 style="color:rgb(202, 55, 87)">分頁的html檔，不需要link 「style.css」</h2>
+    <p>參考:reference.html</p>
+    <h2 style="color:rgb(202, 55, 87)">常用顏色變數名稱</h2>
+    <p>主要藍色 $mainBlue</p>
+    <p>主要黃色 $mainYellow</p>
+    <p>區塊背景灰色 $bgGray</p>
+    <p>區塊背景黃色 $bgYellow</p>
+    <p>篩選區塊背景黃色 $subYellow</p>
+    <p>內文黑 $textBlack</p>
+    <p>hashtag灰 $tagGray</p>
+
+    <h2 style="color:rgb(202, 55, 87)">文字</h2>
+    <p>hashtag class命名為:hast</p>
+    <h1>h1 font size</h1>
+    <h2>h2 font size</h2>
+    <h3>h3 font size</h3>
+    <h4>h4 font size</h4>
+    <p>p font size</p>
+    <div class="tag">#熱門標籤 </div>
+    <a href="#">這裡是超連結</a><br>
+
+
+    <h2 style="color:rgb(202, 55, 87)">字級變數</h2>
+
+    <p>$font-1:18px;</p>
+    <p>$font-2:24px;</p>
+    <p>$font-3:28px;</p>
+    <p>$font-4:32px;</p>
+    <p>$font-5:36px;</p>
+
+    <h2 style="color:rgb(202, 55, 87)">卡片</h2>
+    <div class="testCard">卡片有圓角+陰影 @include card() </div><br>
+
+    <h2 style="color:rgb(202, 55, 87)">按鈕</h2>
+    <a class="btnBlue">立即開團</a><a class="btnBoredBlue">登入</a>
+    <a class="btnYellow">加入景點</a>
+    <span style="display: inline-block;;background-color: rgb(240, 240, 240);">
+        <a class="btnWhite">活動頁面</a></span>
+
+    <h2 style="color:rgb(202, 55, 87)">其他</h2>
+    <h3>設圓角用 @include borderR()，所有區塊都要設圓角</h3>
+    <h3>設圓形用 @include circle() </h3>
+    <h3>自訂按鈕</h3>
+    <p>設class名稱為btn(已寫好圓角跟padding)，再自己設按鈕背景色跟文字的顏色等等... </p>
+    <h3>水平置中使用@include center()</h3>
+    <p>補充: <br>設定 上下margin 方式 → @include center(10px) <br>不填值 上下margin 預設為0 <br></p>
+
+    <h2 style="color:rgb(202, 55, 87)">圓形頭像</h2>
+    <p>外層div class名稱為smCirle/mdCircle/lgCircle，img標籤的class命名為circle</p>
+    <div class="smCircle"><img class="circle" src="https://picsum.photos/70/70/?random=1"></div>
+    <div class="mdCircle"><img class="circle" src="https://picsum.photos/70/70/?random=1"></div>
+    <div class="lgCircle"><img class="circle" src="https://picsum.photos/70/70/?random=1"></div>
+
+</body>
+
+</html>

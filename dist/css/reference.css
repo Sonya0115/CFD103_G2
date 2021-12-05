@@ -136,7 +136,7 @@ table {
 .btnBlue {
   border-radius: 100px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px;
   display: inline-block;
   background-color: #025A78;
@@ -152,7 +152,7 @@ table {
 .btnBoredBlue {
   border-radius: 100px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px;
   display: inline-block;
   border: 1px solid #025A78;
@@ -168,7 +168,7 @@ table {
 .btnYellow {
   border-radius: 100px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px;
   display: inline-block;
   background-color: #FFF3A9;
@@ -183,7 +183,7 @@ table {
 .btnWhite {
   border-radius: 100px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px;
   display: inline-block;
   background-color: #ffffff;
@@ -196,7 +196,7 @@ table {
 
 .btn {
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px;
   display: inline-block;
 }
@@ -240,7 +240,7 @@ h1 {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 28px;
   padding: 15px;
 }
 
@@ -262,7 +262,7 @@ p {
   padding: 10px;
 }
 
-.hashtag {
+.tag {
   font-size: 14px;
   padding: 10px;
 }
