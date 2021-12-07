@@ -1,0 +1,368 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.btnBlue {
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #025A78;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+.btnBlue:hover {
+  background-color: #0380aa;
+  color: #ffffff;
+}
+
+.btnBoredBlue {
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #025A78;
+  background-color: #ffffff;
+  color: #025A78;
+}
+
+.btnBoredBlue:hover {
+  color: #0380aa;
+  border: 1px solid #0380aa;
+}
+
+.btnYellow {
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #FFF3A9;
+  color: #777777;
+}
+
+.btnYellow:hover {
+  background-color: #fffadc;
+  color: #c4c4c4;
+}
+
+.btnWhite {
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #ffffff;
+  color: #777777;
+}
+
+.btnWhite:hover {
+  color: #c4c4c4;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.smCircle {
+  width: 30px;
+}
+
+.smCircle .circle {
+  border-radius: 50%;
+}
+
+.mdCircle {
+  width: 80px;
+}
+
+.mdCircle .circle {
+  border-radius: 50%;
+}
+
+.lgCircle {
+  width: 130px;
+}
+
+.lgCircle .circle {
+  border-radius: 50%;
+}
+
+.login-wrapper {
+  width: 550px;
+  background-color: #025A78;
+  padding: 50px 10px 50px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.login-form {
+  width: 350px;
+  margin: auto;
+}
+
+form h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #FFF3A9;
+}
+
+.group {
+  position: relative;
+  margin: 45px 0;
+}
+
+.input {
+  color: #6B879D;
+  font-size: 14px;
+  padding: 25px 10px 10px;
+  display: block;
+  width: 350px;
+  border: none;
+  border-radius: 10px;
+}
+
+.input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.input:focus ~ label,
+.input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: 5px;
+  font-size: 14px;
+  color: #6B879D;
+}
+
+.input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 350px;
+}
+
+label {
+  color: #6B879D;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 20px;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+}
+
+* {
+  letter-spacing: 2px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #777777;
+  line-height: 24px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.tag {
+  font-size: 14px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color: #025A78;
+}
+
+a:hover {
+  color: #5F8B94;
+  cursor: pointer;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.testCard {
+  width: 150px;
+  height: 100px;
+  -webkit-box-shadow: 0 0 5px #8989895e;
+          box-shadow: 0 0 5px #8989895e;
+  border-radius: 10px;
+  color: #777777;
+  margin: 10px;
+  padding: 10px;
+}
+/*# sourceMappingURL=reference.css.map */
