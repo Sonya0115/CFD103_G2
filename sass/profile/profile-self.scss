@@ -1,0 +1,205 @@
+@import '../sass/base/var';
+@import '../sass/mixin/mixin';
+.self-wrapper{
+    width: $layoutwidth;
+    display: flex;
+    @include center();
+}
+.check-info{
+    width: 30%;
+    border-right:2px solid $bgGray;
+}
+.self-info{
+    width: 70%;
+}
+.profile-card{
+    width: 210px;
+    @include center(20px);
+    background: linear-gradient(149.44deg, #FFEB6F 0%, rgba(255, 247, 203, 0.49) 98.11%);
+    @include borderR();
+    padding-bottom: 20px;
+}
+.edit-wrapper{
+    width:50px;
+    text-align: end;
+    margin-left: auto;
+    padding-top:$padding;
+}
+.edit{
+    font-size: $font-2;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    @include center();
+    color: $tagGray;
+    opacity: .5;
+}
+.self-pic{
+    width: 100px;
+    height: 100px;
+    @include center();
+}
+.self-pic img{
+  @include borderR(50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name{
+    color:$mainBlue;
+    text-align: center;
+    font-weight: bold;
+}
+.purse{
+    display: flex;
+    justify-content: center;
+}
+.diamond{
+    display: flex;
+    align-items: center;
+    margin-right: $margin;
+}
+.diamond img{
+    width: 30px;
+}
+.coin{
+    display: flex;
+    align-items: center;
+}
+.coin img{
+    width: 30px;
+}
+.check-self{
+    width: 185px;
+    margin: $margin auto;
+}
+.no-border{
+    border:none;
+
+}
+.main-tabs{
+   text-align: center;
+}
+.tabs button{
+    font-size: $font-2;
+    padding:50px;
+    color: $mainBlue;
+    @include center();
+}
+.tabs:hover{
+    background: linear-gradient(90deg, #FFF3A9 1.82%, rgba(255, 250, 219, 0.53) 98.46%);
+    transition: background-color 2s ;
+}
+.self-info{
+    margin: 50px 0 0 30px;
+}
+.self-info h2{
+    font-size: $h2;
+    color: $mainBlue;
+    padding: 0;
+    margin-bottom: 20;
+    font-weight: bold;
+}
+.self-info span{
+    font-size: $font-4;
+}
+.second-tabs{
+    display: flex;
+    margin-bottom: 50px;
+    padding:30px $padding;
+    border-bottom: 2px solid $bgGray;
+    border-right: 2px solid $bgGray;
+    box-shadow: 5px 5px 5px $shawdowGray;
+}
+.second-tabs li{
+    margin-right: 30px;
+    border-radius: 20px;
+    height: 10px;
+
+}
+.second-tabs button{
+    color: $pageBlue;
+    background-color:transparent;
+    border: none;
+
+}
+.second-tabs .all{
+   background-color: $mainYellow;
+   color: $mainBlue;
+   font-weight: bold;
+}
+.activity{
+    display: flex;
+    background-color: $bgGray;
+    padding: $padding;
+    @include borderR();
+    margin-bottom: $margin;
+}
+.activity-info h4{
+    font-size: $font-1;
+    color: $mainBlue;
+    font-weight: bold;
+}
+.activity-info P{
+    color: $textBlack;
+    font-size: $p;
+}
+.activity-pic{
+    width: 40%;
+}
+.activity-pic img{
+    width: 100%;
+    @include borderR();
+}
+.activity-btn{
+    width: 30%;
+    margin: 50px 0 0 20px;
+    text-align: end;
+}
+.activity-like{
+    margin: 10px 0 0 20px;  
+}
+.friend-list h2{
+    display: inline-block;
+}
+.friend-card-list{
+    display: flex;
+}
+.girl-card{
+    background: linear-gradient(149.44deg, #F3B5BA 0%, rgba(233, 199, 216, 0.24) 98.11%);
+}
+.boy-card{
+    background: 
+    linear-gradient(149.44deg, #B4CEEF 0%, rgba(247, 251, 255, 0.49) 98.11%);
+}
+.setting i{
+    font-size: $font-1;
+    opacity: .3;
+}
+.interact{
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+}
+.profile i,.chat i,.mail i{
+    font-size: $font-3;
+    margin: 0 10px;
+}
+.article-time{
+    margin-top: 30px;
+}
+.friend-title{
+    display: inline-block;
+}
+.search-friend{
+    display: inline-block;
+    position: relative;
+}
+.search-btn{
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}

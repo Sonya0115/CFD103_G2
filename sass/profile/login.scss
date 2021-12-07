@@ -1,0 +1,200 @@
+@import '../sass/base/var';
+@import '../sass/mixin/mixin';
+ 
+.drag-area{
+  border: 2px dashed black;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  background-color: $white;
+}
+.icon{
+ margin-top: 35px;
+}
+.drag-area.active{
+  border:none;
+  border-radius: 50%;
+}
+.drag-area>button{
+  border:none;
+  background-color: $white;
+  font-size: 28px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;  
+  width: 100%; 
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+  .btn-box {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .login-form p{
+    color: $white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .login-form a{
+    color: #FFF3A9;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .login-form a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+  .join{
+    font-size: $h2;
+  }
+  .joinPageGroup{
+    display: block;
+    margin-top:50px;
+    color: $white;
+  }
+  .first-group{
+    margin-top: 10px;
+  };
+  .gender-row{
+   width: $forminputwidth;
+   display: flex;
+  }
+  .gender-row label{
+    color:$pageBlue;
+  }
+  .gender-group{
+    width: 150px;
+    background-color: $white;
+    padding: 10px;
+    margin-right:20px;
+    @include borderR();
+  }
+  .gender{
+    font-size: $font-1;
+    margin-left: 50px;
+    border: none;
+  }
+  .gender-label{
+    font-size: $font-1;
+    position: relative;
+    top: -5px;
+    left:-5px;
+   }
+  .birthday-group{
+    width: 195px;
+    background-color: $white;
+    padding: 10px;
+    margin-right:20px;
+    @include borderR();
+  }
+  .birthday-group input{
+    border: none;
+    font-size: $font-1;
+  }
+  .birthday-group label{
+    font-size: $font-1;
+    position: relative;
+    top: -5px;
+    left:-5px
+  } 
+//興趣
+.chooseHobby{
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin:5px 30px 5px 0px;
+  }
+  .checkbox>label{
+    color: #FFF3A9;
+    margin-left: 5px;
+  }
+  .checkbox>input,
+  .checkbox>svg {
+    width: 21px;
+    height: 21px;
+    display: block;
+  }
+  .checkbox>input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    outline: none;
+    background:#FFF;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: box-shadow 0.3s;
+    
+  }
+  .checkbox>input:hover {
+    --b: #BBC1E1;
+  }
+  .checkbox>input:checked {
+    --b: #236F8A;
+  }
+  .checkbox>svg {
+    pointer-events: none;
+    fill: none;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #236F8A;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    transform: scale(var(--scale, 1)) translateZ(0);
+  }
+  .checkbox.path>input:checked {
+    transition-delay: 0.4s;
+    background-color: #FFF3A9;
+  }
+  .checkbox.path>input:checked + svg {
+    --a: 16.1 86.12;
+    --o: 102.22;
+  }
+  .checkbox.path>svg {
+    stroke-dasharray: var(--a, 86.12);
+    stroke-dashoffset: var(--o, 86.12);
+    transition: stroke-dasharray 0.6s, stroke-dashoffset 0.6s;
+  }
+  //自我介紹
+   .biography{
+     width: 370px;
+     background-color: $white;
+     position: relative;
+     margin-top: 30px;
+     @include borderR();
+   }
+   #bio{
+     resize: none;
+     padding: 25px 10px;
+     font-size: $font-1;
+     border: none;
+     @include borderR();
+   }
+   .biography-label{
+    color: $pageBlue;
+    font-size: $font-2;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 20px;
+    transition: 300ms ease all;
+   }
+
